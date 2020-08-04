@@ -18,6 +18,6 @@ function f() {
     // write your code here
 }
 
-test('f returns global object', () => {
+test('f() returns global object', () => {
     expect(f()).toEqual(global);
 });
